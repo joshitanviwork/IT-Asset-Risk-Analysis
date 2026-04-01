@@ -3,6 +3,8 @@ Interactive Power BI dashboard analysing IT asset lifecycle data to uncover risk
 Power BI dashboard analysing IT asset lifecycle data to identify risk patterns, vendor dependency, and maintenance gaps.
 # IT Asset Risk Analysis Dashboard
 ![Dashboard](dashboard.png)
+## SQL Analysis
+Basic SQL queries were used to analyse asset distribution, risk categories, and maintenance expiry trends before building the Power BI dashboard.
 
 The dashboard is built using Power BI and focuses on converting raw asset data into actionable insights for better decision-making.
 

@@ -36,7 +36,7 @@ SQL queries were used to:
 Refer to `queries.sql` for full query logic.
 
 ## Files
-- `IT Asset Dashboard and insights.pbix` — Power BI dashboard
+- IT_Asset_Risk_Dashboard.pbix` — Power BI dashboard
 - `dashboard.png` — dashboard preview
 - `queries.sql` — SQL queries used for analysis
 

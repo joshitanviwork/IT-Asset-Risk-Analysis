@@ -1,6 +1,7 @@
 # IT Asset Lifecycle Risk & Cost Analysis
 
 SQL and Power BI project analysing IT asset lifecycle data to identify maintenance gaps, high-risk assets, and vendor-level cost distribution.
+This project reflects real-world asset management scenarios inspired by enterprise IT infrastructure environments.
 
 ## Dashboard Preview
 ![Dashboard](dashboard.png)

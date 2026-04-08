@@ -1,60 +1,44 @@
-# IT-Asset-Risk-Analysis
-Interactive Power BI dashboard analysing IT asset lifecycle data to uncover risk patterns, maintenance gaps, and vendor/location-based risk concentration.
-Power BI dashboard analysing IT asset lifecycle data to identify risk patterns, vendor dependency, and maintenance gaps.
-# IT Asset Risk Analysis Dashboard
+# IT Asset Lifecycle Risk & Cost Analysis
+
+SQL and Power BI project analysing IT asset lifecycle data to identify maintenance gaps, high-risk assets, and vendor-level cost distribution.
+
+## Dashboard Preview
 ![Dashboard](dashboard.png)
-## SQL Analysis
-Basic SQL queries were used to analyse asset distribution, risk categories, and maintenance expiry trends before building the Power BI dashboard.
 
-The dashboard is built using Power BI and focuses on converting raw asset data into actionable insights for better decision-making.
+## Business Problem
+Infrastructure teams need visibility into assets with expired or missing maintenance, potential risk exposure, and cost distribution across vendors and locations.
 
----
+## Tools Used
+- SQL (data extraction, joins, and analysis)
+- Power BI (dashboard and visualisation)
+- Excel (data preparation)
 
-## Tools & Technologies
-- SQL (data preparation)
-- Power BI (data visualization & dashboard)
-- Excel (dataset creation)
-
----
-
-## Key Business Questions
-- How many assets fall under high, medium, and low risk?
-- Which vendors contribute most to high-risk assets?
-- Which locations have the highest concentration of risk?
-- How many assets are approaching maintenance expiry?
-- Are there regions with concentrated operational risk?
-
----
+## Key Analysis Performed
+- Identified assets with expired or missing maintenance
+- Categorised assets into risk levels (High, Medium, Low)
+- Analysed asset distribution across locations
+- Evaluated vendor-wise maintenance cost
+- Highlighted potential risk exposure areas
 
 ## Key Insights
-- 53% of assets fall under the high-risk category, indicating significant operational risk.
-- Gurgaon shows the highest concentration of high-risk assets, highlighting regional risk exposure.
-- Dell contributes the majority of high-risk assets, indicating vendor dependency risk.
-- Multiple assets are expiring in 2025, requiring proactive maintenance planning.
-- Certain locations show 100% high-risk assets when filtered, indicating concentrated risk clusters.
+- A significant portion of assets fall under high-risk due to expired or missing maintenance.
+- Certain locations (e.g., Gurgaon) have higher concentration of high-risk assets.
+- Vendor distribution shows dependency on key vendors for maintenance support.
+- High maintenance costs are concentrated among specific vendors and asset types.
 
----
+## SQL Work
+SQL queries were used to:
+- Join asset and vendor datasets
+- Identify expired maintenance records
+- Categorise assets based on risk levels
+- Aggregate cost and asset distribution metrics
 
-## Dashboard Features
-- Interactive dashboard with location-based filtering
-- Risk distribution analysis by category, vendor, and location
-- Maintenance expiry tracking
-- Summary KPIs using cards for quick overview
+Refer to `queries.sql` for full query logic.
 
----
+## Files
+- `IT Asset Dashboard and insights.pbix` — Power BI dashboard
+- `dashboard.png` — dashboard preview
+- `queries.sql` — SQL queries used for analysis
 
-## Files Included
-- `IT_Asset_Risk_Dashboard.pbix` – Power BI dashboard file
-- `dashboard.png` – Dashboard preview image
-
----
-
-## Project Outcome
-This project demonstrates how asset lifecycle data can be analysed to identify risk exposure, vendor dependency, and maintenance gaps, enabling proactive infrastructure management.
-
----
-
-## Future Improvements
-- Integration with real-time asset data sources
-- Predictive analysis for risk forecasting
-- Cost vs risk optimisation analysis
+## Conclusion
+This project demonstrates the ability to analyse operational data, identify risk patterns, and generate actionable insights for infrastructure and asset management.
